@@ -1,0 +1,182 @@
+% Beamer Presentation Template
+% Author: Primal Pappachan
+% Last Updated: 4 - 10 - 2011
+% 
+
+\documentclass[compress,red]{beamer} %
+
+\usetheme{Warsaw}
+% other themes: AnnArbor, Antibes, Bergen, Berkeley, Berlin, Boadilla, boxes, CambridgeUS, Copenhagen, Darmstadt, default, Dresden, Frankfurt, Goettingen,
+% Hannover, Ilmenau, JuanLesPins, Luebeck, Madrid, Maloe, Marburg, Montpellier, PaloAlto, Pittsburg, Rochester, Singapore, Szeged, classic
+
+\usepackage[latin1]{inputenc}
+\usefonttheme{professionalfonts}
+\usepackage{times}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{graphics}
+
+%\usecolortheme{default}
+% color themes: albatross, beaver, beetle, crane, default, dolphin, dov, fly, lily, orchid, rose, seagull, seahorse, sidebartab, structure, whale, wolverine
+
+\useoutertheme[subsection=false]{smoothbars}
+
+\usefonttheme[onlysmall]{structurebold}
+
+% font themes: default, professionalfonts, serif, structurebold, structureitalicserif, structuresmallcapsserif
+
+\setbeamerfont{title}{shape=\itshape,family=\rmfamily}
+%\setbeamercolor{title}{fg=black!80!black,bg=red!90!white}
+
+\logo{} %\logo{\includegraphics[height=0.5cm]{logo.pdf}}
+%% Use \insertlogo to insert the logo at place
+
+\title{FOSSEE}
+\subtitle{Pythonizing the Indian Engineering Education}
+\author[]{Primal Pappachan, Parth Buch}  %\author[Euclid]{Euclid of Alexandria
+\institute{IIT Bombay}
+\date[]{} %\date[ISPN ’80]{27th International Symposium of Prime Numbers}
+
+
+\begin{document}
+
+\begin{frame}
+	 \titlepage
+\end{frame}
+
+\begin{frame}
+\section*{Outline}
+\tableofcontents
+\end{frame}
+
+\section{Spoken Tutorials}
+\subsection{Before}
+\begin{frame}
+\frametitle{Offline Workshops}
+\includegraphics[scale=.15]{workshop.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Limitation of Offline Workshops}
+\begin{itemize}
+\item Limited number of resource persons
+\item Cannot be at more than one place than once
+\item Expensive and time consuming
+\item Knowledge fatigue and no sustained interest
+\end{itemize}
+\end{frame}
+
+\subsection{After}
+\begin{frame}
+\begin{block}{Spoken Tutorials}
+Screencasts with a running commentary which explains some aspect of a software.
+\end{block}
+\begin{exampleblock}{}
+\begin{itemize}
+\item Emphasizes Self Learning
+\item Short and sweet
+\item Simultaneous
+\item Cost effective
+\item Resusable effort
+\end{itemize}
+\end{exampleblock}
+\end{frame}
+
+\subsection{The Creation Process}
+\begin{frame}
+\begin{columns}
+\column{.2\textwidth}
+\column{.8\textwidth}
+\frametitle{Inception to Conclusion}
+\includegraphics[scale=0.25]{st-fc.png}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{1234}
+\begin{itemize}
+\item Topic selected based on the reachable audience
+\item Content collected and modularized with the help of domain experts.
+\item Creation of script with examples and evaluation questions
+\item Coordination through github
+\item Have to get yes for a percentage of questions on the checklist
+\item Iterative process of reviewing and editing
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Recording process and Final check}
+\begin{itemize}
+\item Recording done after passing the first half of checklist
+\item Video reviewed against the checklist
+\item Novice check
+\item Iterative process until it meets the requirements
+\end{itemize}
+\end{frame}
+
+\subsection{Present and Future}
+\begin{frame}
+\frametitle{}
+\begin{columns}
+\column{.5\textwidth}
+\begin{block}{Created}
+\begin{itemize}
+\item Python(Basic/Advanced)
+\item Version Control
+\item Linux tools
+\item Test Driven Development
+\item Latex
+\end{itemize}
+\end{block}
+\column{.5\textwidth}
+\begin{block}{Future topics}
+\begin{itemize}
+\item Machine Learning using scikits.learn
+\item Image processing using scikits.image
+\item Django
+\item Mayavi
+\end{itemize}
+\end{block}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Spoken Tutorial(ST) application}
+\begin{itemize}
+\item User Profiling
+\item Video viewing
+\item Metrics for evaluating effectiveness
+\item Better platform for Spoken Tutorials
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Yes, you can help}
+\begin{itemize}
+\item Give Novice/Expert Feedback on the videos
+\item Suggest topics to be covered
+\item Mention resources for content generation
+\end{itemize}
+\begin{block}{Achievements}
+\begin{itemize}
+\item 37 videos completed
+\item 20 under progress
+\item Over 200 workshops in last one year
+\item Better reach and promotion of Python and FOSS
+\item Accessible anywhere, anytime and free of cost
+\end{itemize}
+\end{block}
+\end{frame}
+
+\section*{}
+\frame{
+    \begin{center}
+        \huge
+        Thank you\\ \pause
+    \end{center}
+}
+
+\end{document} 
