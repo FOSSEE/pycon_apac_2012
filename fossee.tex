@@ -18,6 +18,7 @@
 \usepackage{url}
 \usepackage{graphicx}
 \usepackage{graphics}
+\usepackage{qtree}
 
 %\usecolortheme{default}
 % color themes: albatross, beaver, beetle, crane, default, dolphin, dov, fly, lily, orchid, rose, seagull, seahorse, sidebartab, structure, whale, wolverine
@@ -40,6 +41,14 @@
 \institute{IIT Bombay}
 \date[]{} %\date[ISPN ’80]{27th International Symposium of Prime Numbers}
 
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>
+    \frametitle{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
 
 \begin{document}
 
@@ -50,6 +59,81 @@
 \begin{frame}
 \section*{Outline}
 \tableofcontents
+\end{frame}
+
+
+
+\section{SDES}
+\subsection{Project Details}
+\begin{frame}
+\frametitle{SDES}
+\begin{block}{Software Development techniques for Engineers \& Scientists}
+A semster long foundation course for NON-IT Students.
+\end{block}
+\end{frame}
+
+\subsection{Goals}
+\begin{frame}
+\frametitle{Goals}
+\begin{itemize}
+\item To use computer as a tool.
+\item Learn how to collobrate.
+\item Introduce Open Source softwares and tools.
+\item Understand the importance of standards and conventions.
+\end{itemize}
+\end{frame}
+
+
+\subsection{Content}
+\begin{frame}
+\frametitle{Course Content}
+\begin{itemize}
+\item ULT
+\item Python
+    \begin{itemize}
+        \item Advance
+            \begin{itemize}
+                \item Matplotlib
+                \item NumPy
+                \item SciPy
+            \end{itemize}
+        \item Basic
+            \begin{itemize}
+                \item IPython
+                \item DataTypes
+                \item Built-in-functions
+            \end{itemize}
+        \end{itemize}
+        \item Version Control(Mercurial)
+        \item Test Driven Development
+            \begin{itemize}
+                \item doctest
+                \item unittest
+                \item nose test
+            \end{itemize}
+        \item LaTeX
+    \end{itemize}
+\end{frame}
+
+
+\subsection{Reach}
+\begin{frame}
+\frametitle{Reach}
+\begin{itemize}
+\item Introduced into IIT Bombay curriculam from 2011
+\item Partially introduced in BHU - Varanasi Curriculam
+\item Partially introduced in BMS - Bangalore
+\item 725 Teachers from across India were trained to deliver this course.
+\end{itemize}
+\end{frame}
+
+\subsection{Future}
+\begin{frame}
+\frametitle{Future}
+\begin{itemize}
+\item Push this course across universities
+\item Convert the courseware to Spoken Tutorials for self learning
+\end{itemize}
 \end{frame}
 
 \section{Spoken Tutorials}
